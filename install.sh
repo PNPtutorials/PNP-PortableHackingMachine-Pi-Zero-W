@@ -6,7 +6,6 @@ gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
 
 echo "VNC server setup done"
-mkdir /root/.config
 cd /root/.config
 mkdir autostart
 
@@ -25,7 +24,7 @@ echo "VNC autorun on startup done"
 
 echo "****************Enabling autologin***************"
 
-#mv /etc/lightdm/lightdm.conf  /etc/lightdm/lightdm.conf.bak
-#mv /etc/pam.d/lightdm-autologin  /etc/pam.d/lightdm-autologin.bak
-#cp lightdm.conf /etc/lightdm/lightdm.conf
-#cp lightdm-autologin /etc/pam.d/lightdm-autologin
+mv /etc/lightdm/lightdm.conf  /etc/lightdm/lightdm.conf.bak
+mv /etc/pam.d/lightdm-autologin  /etc/pam.d/lightdm-autologin.bak
+cp lightdm.conf /etc/lightdm/lightdm.conf
+cp lightdm-autologin /etc/pam.d/lightdm-autologin
