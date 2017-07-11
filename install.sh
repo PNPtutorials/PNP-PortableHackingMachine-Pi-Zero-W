@@ -1,6 +1,10 @@
-echo "**********************Performing update************************"
+echo "********************** Performing update ************************"
 apt-get update
-echo "**********************Installing Vino************************"
+echo "******************* Installing XFCE4 environment *************"
+apt-get install kali-defaults kali-root-login desktop-base xfce4 xfce4-places-plugin xfce4-goodies
+apt-get install lightdm
+dpkg-reconfigure lightdm
+echo "********************** Installing Vino ************************"
 apt-get -y install vino
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
