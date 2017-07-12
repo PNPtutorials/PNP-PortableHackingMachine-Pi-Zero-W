@@ -8,10 +8,11 @@ echo "********************** Installing Vino ************************"
 apt-get -y install vino
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
-
 echo "VNC server setup done"
-cd /root/.config
-mkdir autostart
+
+mkdir /root/.config/autostart 
+echo "will be fixed after reboot"
+echo " "
 
 echo "**********************Making autorun VNC script************************"
 echo "[Desktop Entry]
