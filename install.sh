@@ -39,4 +39,4 @@ echo "setting up interafces file"
 mv /etc/network/interfaces /etc/network/interfaces.bak
 mv interfaces /etc/network/interfaces
 
-echo "END of Script... Thanks for using it :D"
+echo "END of Script... Thanks for using it"
