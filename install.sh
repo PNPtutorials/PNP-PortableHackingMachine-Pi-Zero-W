@@ -43,3 +43,10 @@ mv interfaces /etc/network/interfaces
 echo "END of Script... Thanks for using it"
 echo " "
 echo "Please Subscribe: https://YouTube.com/PNPtutorials"
+
+echo "Follow us on all Social Media Websites 
+➤ GooglePlus ➤ https://www.plus.google.com/+PNPtutorials
+➤ Twitter    ➤ https://www.twitter.com/PNPtutorials
+➤ Instagram  ➤ https://www.instagram.com/PNPtutorialsOfficial
+➤ Facebook   ➤ https://www.facebook.com/PNPtutorials
+➤ Plz Donate ➤ https://www.paypal.me/PNPtutorials"
