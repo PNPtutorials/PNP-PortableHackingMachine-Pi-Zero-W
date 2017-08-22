@@ -13,7 +13,9 @@ echo "VNC server setup done"
 mkdir /root/.config/autostart 
 echo "will be fixed after reboot"
 echo " "
-
+echo "******************* Installing Wifite*************"
+apt-get install wifite 
+echo " "
 echo "**********************Making autorun VNC script************************"
 echo "[Desktop Entry]
 Encoding=UTF-8
