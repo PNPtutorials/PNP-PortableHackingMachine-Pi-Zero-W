@@ -41,3 +41,5 @@ echo " "
 echo "Your Current network configuration backed up as /etc/network/interfaces.bak file"
 mv interfaces /etc/network/interfaces
 echo "END of Script... Thanks for using it"
+echo " "
+echo "Please Subscribe: https://YouTube.com/PNPtutorials"
