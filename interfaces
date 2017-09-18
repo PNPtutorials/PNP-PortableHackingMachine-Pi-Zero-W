@@ -15,8 +15,8 @@ iface wlan0 inet dhcp
 
 allow-hotplug usb0
 iface usb0 inet static
-    address 192.168.43.10
-    netmask 255.255.255.0
-    network 192.168.43.0
-    broadcast 192.168.43.255
-    gateway 192.168.43.1
+address 192.168.42.42
+netmask 255.255.255.0
+network 192.168.42.0
+broadcast 192.168.42.255
+gateway 192.168.42.41
